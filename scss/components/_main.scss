@@ -1,0 +1,50 @@
+.contenedor-focus{
+    padding: 0px 12px;
+    max-width: 620px;
+    margin: auto;
+    margin-top: 20px;
+    .box-focus{
+        background-color: $color-secundario;
+        padding: 20px 0px 30px;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        width: 100%;
+        .botones-break{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button{
+                background-color: $color-secundario;
+                width: 100px;
+                height: 30px;
+                border-radius: 8px;
+                border: solid 0.5px $color-secundario;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+        .clock{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            margin: 30px auto 30px auto;
+            div{
+                font-size: 120px;
+                font-weight: bold;
+            }
+        }
+        .btn-start{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                height: 60px;
+                width: 160px;
+                font-size: 25px;
+                font-weight: bold;
+                border-radius: 6px;
+            }
+        }
+    }
+}
